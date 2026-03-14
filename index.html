@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Olfa Ameur | Embedded Systems & IoT Engineer</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <h2 class="logo">Olfa Ameur</h2>
+
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="home">
+    <div class="home-container">
+      <div class="home-text reveal">
+        <h1>Olfa Ameur</h1>
+        <h3>Embedded Systems & IoT Engineer</h3>
+        <p>Designing intelligent and connected embedded systems.</p>
+
+        <div class="home-buttons">
+          <a href="#projects" class="btn">View My Work</a>
+        </div>
+      </div>
+
+      <div class="home-image reveal">
+        <img src="images/monImage.png" alt="Olfa Ameur profile photo">
+        <p class="quote-text">
+          <strong>It always seems impossible until it's done</strong>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2 class="section-title reveal">About Me</h2>
+    <div class="title-line reveal"></div>
+
+    <div class="about-container">
+      <div class="about-image reveal">
+        <img src="images/IOT_system.png" alt="Embedded systems illustration">
+      </div>
+
+      <div class="about-text reveal">
+        <h3>Embedded Systems Engineer</h3>
+        <p>
+          Hello! I'm Olfa, an Embedded Systems and IoT Engineer passionate about designing intelligent connected devices that bridge hardware and software.
+          My work focuses on developing real-world embedded systems using microcontrollers such as STM32 and ESP32, integrating wireless communication technologies like Bluetooth Low Energy, sensor data processing, and IoT architectures.
+          I enjoy building complete systems—from low-level firmware and hardware integration to connected applications. My projects include BLE-based driver identification systems for fleet management, IoT smart devices with computer vision capabilities, and embedded health monitoring solutions.
+          Through these projects, I aim to create reliable, efficient, and innovative embedded solutions that solve practical problems in areas such as smart devices, connected vehicles, and intelligent monitoring systems.
+        </p>
+      </div>
+    </div>
+  </section>
+
+<section id="skills" class="skills">
+
+  <h2 class="section-title reveal">My Skills</h2>
+  <div class="title-line reveal"></div>
+
+  <div class="skills-container">
+
+    <div class="skill-card reveal">
+
+      <div class="skill-icon">
+        <img src="images/micro.png" alt="Microcontrollers">
+      </div>
+
+      <h3>Microcontrollers</h3>
+
+      <p>STM32, ESP32, ATmega, Raspberry Pi</p>
+
+    </div>
+
+
+    <div class="skill-card reveal">
+
+      <div class="skill-icon">
+        <img src="images/prog.png" alt="Programming">
+      </div>
+
+      <h3>Programming</h3>
+
+      <p>Embedded C, C++, Python, Linux</p>
+
+    </div>
+
+
+    <div class="skill-card reveal">
+
+      <div class="skill-icon">
+        <img src="images/tools&protcols.png" alt="Tools">
+      </div>
+
+      <h3>Tools & Protocols</h3>
+
+      <p>STM32CubeIDE, STM32CubeMX, Proteus, I2C, SPI, UART, CAN, BLE, MQTT</p>
+
+    </div>
+
+
+    <div class="skill-card reveal">
+
+      <div class="skill-icon">
+        <img src="images/STM32.png" alt="STM32">
+      </div>
+
+      <h3>STM32</h3>
+
+      <p>
+      Firmware development on STM32 microcontrollers using HAL libraries,
+      including peripheral configuration, communication interfaces,
+      and real-time embedded system integration.
+      </p>
+
+    </div>
+
+
+    <div class="skill-card reveal">
+
+      <div class="skill-icon">
+        <img src="images/INTERNETOFTHINGS.png" alt="IoT">
+      </div>
+
+      <h3>IoT</h3>
+
+      <p>
+    Designing connected embedded systems that integrate sensors, microcontrollers, and wireless technologies for intelligent monitoring and automation applications.
+      </p>
+
+    </div>
+
+
+    <div class="skill-card reveal">
+
+      <div class="skill-icon">
+        <img src="images/WIRELLES.png" alt="Wireless Communication">
+      </div>
+
+      <h3>Wireless Communication</h3>
+
+      <p>
+     Experience with BLE, MQTT, and serial communication protocols for reliable data exchange between embedded devices, sensors, and connected applications.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+  <section id="projects" class="projects">
+    <h2 class="section-title reveal">My Projects</h2>
+    <div class="title-line reveal"></div>
+
+    <div class="projects-container">
+      <div class="project-card reveal">
+        <img src="images/Noeud-BLE.jpg" class="project-img" alt="BLE Health Monitoring Node">
+        <h3>BLE Health Monitoring Node</h3>
+        <p>
+          Embedded health monitoring system built with ESP32-C3 using Bluetooth Low Energy. The device measures heart rate using a sensor, displays the data on an LCD screen, and transmits physiological data via BLE. BLE packets were analyzed using Wireshark and an nRF51 sniffer for protocol inspection.
+        </p>
+
+        <div class="project-tags">
+          <span>ESP32</span>
+          <span>BLE</span>
+          <span>IoT</span>
+          <span>Wireshark</span>
+          <span>Embedded C</span>
+        </div>
+
+        <a href="https://github.com/Olfa-Ameur/IoT-BLE-Health-Monitoring-Node-with-ESP32" class="project-btn" target="_blank">
+          View Project
+        </a>
+      </div>
+
+      <div class="project-card reveal">
+        <img src="images/Vue_réelle_du_système.png" class="project-img" alt="BLE Fleet Management System">
+        <h3>BLE Fleet Management System</h3>
+        <p>
+          Embedded fleet management authentication system that replaces traditional
+iButton driver identification with secure Bluetooth Low Energy communication.
+The solution uses an STM32WB55 BLE node that communicates with a tracking unit
+via UART, while GPS data is transmitted through the fleet management device.</p>
+
+        <div class="project-tags">
+          <span>STM32WB55</span>
+          <span>BLE</span>
+          <span>UART</span>
+          <span>GPS</span>
+          <span>IoT</span>
+        </div>
+
+        <a href="https://github.com/Olfa-Ameur/BLE-Fleet-Management-System" class="project-btn" target="_blank">
+          View Project
+        </a>
+      </div>
+
+      <div class="project-card reveal">
+        <img src="images/Smart_Fridge.png" class="project-img" alt="Smart Fridge IoT System">
+        <h3>Smart Fridge IoT System</h3>
+        <p>
+          Intelligent refrigerator monitoring system integrating STM32 microcontrollers, ESP32-CAM computer vision and MQTT communication. The system performs RFID authentication, environmental monitoring, and AI-based food recognition using Edge Impulse.
+        </p>
+
+        <div class="project-tags">
+          <span>STM32</span>
+          <span>ESP32-CAM</span>
+          <span>Edge AI</span>
+          <span>MQTT</span>
+          <span>IoT</span>
+        </div>
+
+        <a href="https://github.com/Olfa-Ameur/Smart-Fridge-IoT" class="project-btn" target="_blank">
+          View Project
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 class="section-title reveal">Get In Touch</h2>
+    <div class="title-line reveal"></div>
+
+    <div class="contact-container reveal">
+      <form class="contact-form">
+        <div class="input-row">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+        </div>
+
+        <input type="text" placeholder="Subject">
+        <textarea placeholder="Your Message" rows="6"></textarea>
+
+        <button type="submit" class="contact-btn">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <h2>Olfa Ameur</h2>
+      <p>Embedded Systems Engineer</p>
+
+      <div class="social-icons">
+        <a href="https://github.com/Olfa-Ameur" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/olfa-ameur/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        
+      </div>
+
+      <hr>
+
+      <p class="copyright">
+        © 2025 Olfa Ameur. All Rights Reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
